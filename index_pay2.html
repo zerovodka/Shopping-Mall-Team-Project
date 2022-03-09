@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>남성 의류 쇼핑몰</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/team.css">
+  <script src="main.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <!--헤더영역-->
+  <header>
+    <div class="header">
+      <div class="logo-box">
+        <a href="./index.html">LogoName</a>
+      </div>
+
+      <div class="search-box">
+        <form class="search-form" action="index.html" method="post">
+          <select class="category-box" name="">
+            <option value="">카테고리</option>
+            <option value="">BEST</option>
+            <option value="">TOP</option>
+            <option value="">PANTS</option>
+            <option value="">OUTER</option>
+          </select>
+          <input class="search-bar" type="text" name="" value="">
+          <input class="btn-search" type="submit" name="" value="검색">
+        </form>
+      </div>
+      <div class="info-box">
+        <ul>
+          <li><a href="login.html">로그인</li></a>
+          <li><a href="my_page.html">내정보</li></a>
+          <li><a href="cs_center.html">고객센터</li></a>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="menu-bar">
+      <ul>
+        <div class="dropdown">
+          <li><a href="#">BEST</a></li>
+          <div class="dropdown-content">
+            <a href="#">BEST 1</a>
+            <a href="#">BEST 2</a>
+            <a href="#">BEST 3</a>
+            <a href="#">BEST 4</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <li><a href="#">TOP</a></li>
+          <div class="dropdown-content">
+            <a href="#">TOP 1</a>
+            <a href="#">TOP 2</a>
+            <a href="#">TOP 3</a>
+            <a href="#">TOP 4</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <li><a href="#">PANTS</a></li>
+          <div class="dropdown-content">
+            <a href="#">PANTS 1</a>
+            <a href="#">PANTS 2</a>
+            <a href="#">PANTS 3</a>
+            <a href="#">PANTS 4</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <li><a href="#">OUTER</a></li>
+          <div class="dropdown-content">
+            <a href="#">OUTER 1</a>
+            <a href="#">OUTER 2</a>
+            <a href="#">OUTER 3</a>
+            <a href="#">OUTER 4</a>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!--___________________여기서부터________________________________-->
+
+
+
+
+  <div class="wrapper wrapper2">
+    <div class="parent" style="flex:1;  background: white; display:flex; position:relative;  ">
+
+
+
+      <!--마이페이지-->
+      <div class="my_page_left">
+        <br><br><br><br>
+        <p style="font-size:25px;"><b>마이페이지</b></p><br><br><br><br>
+        <p><a href="index_order.html" style="color: black">주문/배송 목록</a></p><br>
+        <p><a href="index_cart2.html" style="color: black">장바구니</a></p>
+        <p><a href="index_wish.html" style="color: black">관심품목</a></p><br>
+        <p><a href="review_history.html" style="color: black">리뷰내역</a></p>
+        <p><a href="inquiry_history.html" style="color: black">문의내역</a></p><br>
+        <p><a href="my_page.html" style="color: black">회원정보 변경/</a><a href="my_page1.html" style="color: black">탈퇴</a></p>
+      </div>
+
+
+
+
+
+      <div class="child" style="width: 70%; text-align: center;   ">
+
+
+        <!--주문/결제-->
+        <div class="text">
+          <h3 class="ProductOverview" style="font-size: 2rem; color: #222222; font-family: 'Rajdhani', sans-serif; ">
+            <br>
+            <br>
+            주문/결제
+            <br>
+            <br>
+          </h3>
+        </div>
+
+
+
+        <div class="cart" style="text-align:left;">
+
+
+
+
+          <!--결제금액-->
+          <style>
+            table {
+              width: 100%;
+              border-collapse: collapse;
+            }
+
+            th,
+            td {
+              border-bottom: 0.0px solid #222222;
+              padding: 10px;
+              padding-left: 30px;
+            }
+          </style>
+
+
+
+
+          <table class="table_boldline" style="width:100%;background-color: #E0E0E0; font-size:1rem;">
+            <colgroup>
+              <col style="width: 20%;" />
+              <col style="width: 40%" />
+              <col style="width: 40%" />
+            </colgroup>
+            <tr>
+              <td class="talbe_row"><strong>총 결제금액</strong></td>
+              <td><strong>87,500</strong></td>
+              <td>
+                <div style="text-align:center;font-size:2rem;">
+                  <strong> +</strong>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <br>
+          <br>
+          <br>
+          <br>
+
+
+
+          <!--주문자 정보-->
+          <h2 style="padding-left:2rem;padding-bottom:0.5rem;font-size:1.2rem;"><strong>주문자 정보</strong></h2>
+          <!--라인-->
+          <h4 class="line" style="font-size: 0.8rem; color: #222222; font-family: 'Rajdhani', sans-serif;
+                      border-top-style: solid;
+                      border-top-width: 1px;
+                      border-top-color: #222222;
+                      padding-top:10px;
+                      text-align:right;"></h4>
+          <br>
+
+
+          <div calss="order_info">
+
+            <table class="table_boldline" style="width:100%; ">
+              <colgroup>
+                <col style="width: 10%;" />
+                <col style="width: 45%" />
+                <col style="width: 35%" />
+
+              </colgroup>
+              <tr>
+                <td class="talbe_row">이름</td>
+                <td colspan='2'>
+                  <div>
+                    <input type="password" id="pw" style="width:80%;">
+                  </div>
+                </td>
+                <!--  <td ></td>-->
+              </tr>
+              <tr>
+                <td class="talbe_row">전화번호</td>
+                <td colspan='2'>
+                  <div>
+                    <input type="password" id="pw" style="width:80%;">
+                  </div>
+                </td>
+                <!--  <td ></td>-->
+              </tr>
+              <tr>
+                <td class="talbe_row">주소</td>
+                <td>
+                  <div>
+                    <input type="password" id="pw" style="width:100%;">
+                  </div>
+                </td>
+                <td><button type="button" class="btn btn-primary" id="btn-delete" style="width:52%;; margin:2px;  ">주소검색</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="talbe_row"></td>
+                <td colspan='2'>
+                  <div>
+                    <input type="password" id="pw" style="width:80%;">
+                  </div>
+                </td>
+                <!--  <td ></td>-->
+              </tr>
+            </table>
+
+
+            <br>
+            <!--라인-->
+            <h4 class="line" style="font-size: 0.8rem; color: #222222; font-family: 'Rajdhani', sans-serif;
+                              border-top-style: solid;
+                              border-top-width: 1px;
+                              border-top-color: #222222;
+                              padding-top:10px;
+                              text-align:right;"></h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <!--배송지 정보-->
+            <h2 style="padding-left:2rem;padding-bottom:0.5rem;font-size:1.2rem;"><strong>배송지 정보</strong></h2>
+            <div calss="order_info">
+
+
+              <!--라인-->
+              <h4 class="line" style="font-size: 0.8rem; color: #222222; font-family: 'Rajdhani', sans-serif;
+                                border-top-style: solid;
+                                border-top-width: 1px;
+                                border-top-color: #222222;
+                                padding-top:10px;
+                                text-align:right;"></h4>
+
+
+              <!--주문자 정보와 다른배송지-->
+              <div style="padding-left:1rem;font-size:0.8rem;">
+                <input type="checkbox" name="fruit" style="width:3rem;">주문자 정보와 다른배송지
+              </div>
+
+              <br>
+              <br>
+
+              <table class="table_boldline" style="width:100%; ">
+                <colgroup>
+                  <col style="width: 10%;" />
+                  <col style="width: 45%" />
+                  <col style="width: 35%" />
+                </colgroup>
+                <tr>
+                  <td class="talbe_row">이름</td>
+                  <td colspan='2'>
+                    <div>
+                      <input type="password" id="pw" style="width:80%;">
+                    </div>
+                  </td>
+                  <!--  <td ></td>-->
+                </tr>
+                <tr>
+                  <td class="talbe_row">전화번호</td>
+                  <td colspan='2'>
+                    <div>
+                      <input type="password" id="pw" style="width:80%;">
+                    </div>
+                  </td>
+                  <!--  <td ></td>-->
+                </tr>
+                <tr>
+                  <td class="talbe_row">주소</td>
+                  <td>
+                    <div>
+                      <input type="password" id="pw" style="width:100%;">
+                    </div>
+                  </td>
+                  <td><button type="button" class="btn btn-primary" id="btn-delete" style="width:52%;; margin:2px;  ">주소검색</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="talbe_row"></td>
+                  <td colspan='2'>
+                    <div>
+                      <input type="password" id="pw" style="width:80%;">
+                    </div>
+                  </td>
+                  <!--  <td ></td>-->
+                </tr>
+              </table>
+
+
+              <br>
+              <!--라인-->
+              <h4 class="line" style="font-size: 0.8rem; color: #222222; font-family: 'Rajdhani', sans-serif;
+                                    border-top-style: solid;
+                                    border-top-width: 1px;
+                                    border-top-color: #222222;
+                                    padding-top:10px;
+                                    text-align:right;"></h4>
+              <br>
+
+              <br>
+              <br>
+              <br>
+              <br>
+
+
+              <!--카드결제하기-->
+              <div class="card_pay" style="text-align:center;">
+                <button type="button" class="btn btn-primary" id="btn-delete" style="width:52%;; margin:2px; font-size: 1.2rem; ">카드 결제하기</button>
+              </div>
+
+              <div style="background-color:white; height: 150px">
+                <!--단락여백-->
+              </div>
+
+            </div>
+
+            <div style="background-color:white; height: 150px">
+              <!--바닥여백-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--___________________여기까지________________________________-->
+
+    <footer>
+      <address>
+        <p>(주)LogoName</p>
+        <p>대표전화 : 1111-2222</p>
+        <p>팩스번호 : 1111-2222</p>
+        <p>이메일주소 : LogoName@LogoName.com</p>
+        <p>주소 : 서울특별시 영등포구</p>
+        <p>Copyright © All Rights Reserved</p>
+      </address>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

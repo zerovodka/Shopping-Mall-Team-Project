@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>남성 의류 쇼핑몰</title>
+  <link rel="stylesheet" type="text/css" href="./css/team.css">
+  <script src="main.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper wrapper2">
+
+    <header>
+      <div class="header">
+        <div class="logo-box">
+          <a href="./index.html">LogoName</a>
+        </div>
+
+        <div class="search-box">
+          <form class="search-form" action="index.html" method="post">
+            <select class="category-box" name="">
+              <option value="">카테고리</option>
+              <option value="">BEST</option>
+              <option value="">TOP</option>
+              <option value="">PANTS</option>
+              <option value="">OUTER</option>
+            </select>
+            <input class="search-bar" type="text" name="" value="">
+            <input class="btn-search" type="submit" name="" value="검색">
+          </form>
+        </div>
+        <div class="info-box">
+          <ul>
+            <li><a href="login.html">로그인</li></a>
+            <li><a href="my_page.html">내정보</li></a>
+            <li><a href="cs_center.html">고객센터</li></a>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="menu-bar">
+        <ul>
+          <div class="dropdown">
+            <li><a href="#">BEST</a></li>
+            <div class="dropdown-content">
+              <a href="#">BEST 1</a>
+              <a href="#">BEST 2</a>
+              <a href="#">BEST 3</a>
+              <a href="#">BEST 4</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#">TOP</a></li>
+            <div class="dropdown-content">
+              <a href="#">TOP 1</a>
+              <a href="#">TOP 2</a>
+              <a href="#">TOP 3</a>
+              <a href="#">TOP 4</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#">PANTS</a></li>
+            <div class="dropdown-content">
+              <a href="#">PANTS 1</a>
+              <a href="#">PANTS 2</a>
+              <a href="#">PANTS 3</a>
+              <a href="#">PANTS 4</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#">OUTER</a></li>
+            <div class="dropdown-content">
+              <a href="#">OUTER 1</a>
+              <a href="#">OUTER 2</a>
+              <a href="#">OUTER 3</a>
+              <a href="#">OUTER 4</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="content">
+
+      <div class="my_page_left">
+        <br><br><br><br>
+        <p style="font-size:25px;"><b>마이페이지</b></p><br><br><br><br>
+        <p><a href="index_order.html" style="color: black">주문/배송 목록</a></p><br>
+        <p><a href="index_cart2.html" style="color: black">장바구니</a></p>
+        <p><a href="index_wish.html" style="color: black">관심품목</a></p><br>
+        <p><a href="review_history.html" style="color: black">리뷰내역</a></p>
+        <p><a href="inquiry_history.html" style="color: black">문의내역</a></p><br>
+        <p><a href="my_page.html" style="color: black">회원정보 변경/</a><a href="my_page1.html" style="color: black">탈퇴</a></p>
+      </div>
+
+      <div class="my_page_right">
+
+        <br><br>
+        <div class="right_0">
+          <div class="right_1">
+            <img src="./images/얼굴.JPG" class="profile">
+          </div>
+          <div class="right_2">
+            <P style="font-size:30px;">홍길동님</p>
+          </div>
+          <div class="right_3">
+            <p>가입일: 2021. 10. 10</p>
+          </div>
+        </div>
+        <hr style="height: 1px; background-color:black;">
+        <P style="font-size:25px;">회원정보 변경</p>
+        <hr style="height: 1px; background-color:black;">
+
+
+        <br>
+        <table class="user_table">
+          <tr>
+            <td class="col1"> 프로필사진</td>
+            <td class="col2">
+              <img src="./images/얼굴.JPG" class="face_modify">
+            </td>
+            <td class="col3">
+              <button type="button">사진변경</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="col1">아이디</td>
+            <td class="col2">Human1004</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td class="col1">이름</td>
+            <td class="col2">홍길동</td>
+            <td class="col3">
+              <button type="button">이름변경</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="col1 col4">비밀번호</td>
+            <td class="col2 col4">현재 비밀번호</td>
+            <td class="col3 col4">
+              <input type="password">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="col1 col4"></td>
+            <td class="col2 col4">신규 비밀번호</td>
+            <td class="col3 col4">
+              <input type="password">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="col1 col4"></td>
+            <td class="col2 col4">신규 비밀번호 재입력</td>
+            <td class="col3 col4">
+              <input type="password">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="col1"></td>
+            <td class="col2"></td>
+            <td class="col3">
+              <button type="button">비밀번호 변경</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="col1">이메일</td>
+            <td class="col2">human@naver.com</td>
+            <td class="col3">
+              <button type="button">이메일 변경</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="col1">휴대폰 번호</td>
+            <td class="col2">01012345678</td>
+            <td class="col3">
+              <button type="button">휴대폰 번호 변경</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="col1">기본 배송지</td>
+            <td class="col2">서울 특별시 영등포구 영등포동</td>
+            <td class="col3">
+              <button type="button" onclick="showPopup();">배송지 변경</button>
+            </td>
+          </tr>
+
+        </table>
+
+        <br><br><br>
+
+        <span class="pschk_4">
+          <input type="button" value="확인">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>
+        <span class="pschk_5">
+          <button>취소</button>
+        </span>
+
+      </div>
+
+
+    </div>
+
+
+
+    <footer>
+      <address>
+        <p>(주)LogoName</p>
+        <p>대표전화 : 1111-2222</p>
+        <p>팩스번호 : 1111-2222</p>
+        <p>이메일주소 : LogoName@LogoName.com</p>
+        <p>주소 : 서울특별시 영등포구</p>
+        <p>Copyright © All Rights Reserved</p>
+      </address>
+    </footer>
+
+  </div>
+</body>
+
+</html>

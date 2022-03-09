@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>남성 의류 쇼핑몰</title>
+  <link rel="stylesheet" type="text/css" href="./css/team.css">
+  <script src="main.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header>
+      <div class="header">
+        <div class="logo-box">
+          <a href="./index.html">LogoName</a>
+        </div>
+
+        <div class="search-box">
+          <form class="search-form" action="index.html" method="post">
+            <select class="category-box" name="">
+              <option value="">카테고리</option>
+              <option value="">BEST</option>
+              <option value="">TOP</option>
+              <option value="">PANTS</option>
+              <option value="">OUTER</option>
+            </select>
+            <input class="search-bar" type="text" name="" value="">
+            <input class="btn-search" type="submit" name="" value="검색">
+          </form>
+        </div>
+        <div class="info-box">
+          <ul>
+            <li><a href="login.html">로그인</li></a>
+            <li><a href="my_page.html">내정보</li></a>
+            <li><a href="cs_center.html">고객센터</li></a>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="menu-bar">
+        <ul>
+          <div class="dropdown">
+            <li><a href="#">BEST</a></li>
+            <div class="dropdown-content">
+              <a href="#">BEST 1</a>
+              <a href="#">BEST 2</a>
+              <a href="#">BEST 3</a>
+              <a href="#">BEST 4</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#">TOP</a></li>
+            <div class="dropdown-content">
+              <a href="#">TOP 1</a>
+              <a href="#">TOP 2</a>
+              <a href="#">TOP 3</a>
+              <a href="#">TOP 4</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#">PANTS</a></li>
+            <div class="dropdown-content">
+              <a href="#">PANTS 1</a>
+              <a href="#">PANTS 2</a>
+              <a href="#">PANTS 3</a>
+              <a href="#">PANTS 4</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="#">OUTER</a></li>
+            <div class="dropdown-content">
+              <a href="#">OUTER 1</a>
+              <a href="#">OUTER 2</a>
+              <a href="#">OUTER 3</a>
+              <a href="#">OUTER 4</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content">
+      <div class="loginForm">
+        <h1> 아이디 찾기 </h1><br><br>
+        <div class="ip">
+          <input type="radio" name="find" onclick="doDisplay0('0')" checked>
+          <label>휴대폰으로 찾기 </label>
+        </div>
+        <div id="find1" style="display:block; text-align:center;">
+          <input type="text" placeholder="이름" style="margin-bottom:21px;">
+          <input type="text" placeholder="- 없이 번호 입력" style="margin-bottom:21px;">
+          <button style="margin-bottom:21px;"><b>확인</b></button>
+        </div>
+        <div class="ip">
+          <input type="radio" name="find" onclick="doDisplay0('1')">
+          <label>이메일로 찾기 </label>
+        </div>
+        <div id="find2" style="display:none; text-align:center;">
+          <input type="text" placeholder="이름" style="margin-bottom:21px;">
+          <input type="text" placeholder="이메일 입력" style="margin-bottom:21px;">
+          <button style="margin-bottom:21px;"><b>확인</b></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <address>
+      <p>(주)LogoName</p>
+      <p>대표전화 : 1111-2222</p>
+      <p>팩스번호 : 1111-2222</p>
+      <p>이메일주소 : LogoName@LogoName.com</p>
+      <p>주소 : 서울특별시 영등포구</p>
+      <p>Copyright © All Rights Reserved</p>
+    </address>
+  </footer>
+
+</body>
+
+</html>
